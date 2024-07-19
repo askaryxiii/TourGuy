@@ -19,49 +19,12 @@ var image = document.querySelector(".contentImage");
 var themeColor = document.querySelector(".ContentSection");
 
 // showing egypt information when pressing egypt
-function egypt(title, paragraphText, imgDistination, themeColorcode) {
+function countryInfo(title, paragraphText, imgDistination, themeColorcode) {
     themeColor.style.backgroundColor = themeColorcode
     heading.innerHTML = title
     paragraph.innerHTML = paragraphText
     image.src = imgDistination
 }
-
-// showing palestine information when pressing palestine
-function palestine(title, paragraphText, imgDistination, themeColorcode) {
-    themeColor.style.backgroundColor = themeColorcode
-    heading.innerHTML = title
-    paragraph.innerHTML = paragraphText
-    image.src = imgDistination
-}
-
-
-// showing uae information when pressing uae
-function uae(title, paragraphText, imgDistination, themeColorcode) {
-    themeColor.style.backgroundColor = themeColorcode
-    heading.innerHTML = title
-    paragraph.innerHTML = paragraphText
-    image.src = imgDistination
-}
-
-
-// showing lebanon information when pressing lebanon
-function lebanon(title, paragraphText, imgDistination, themeColorcode) {
-    themeColor.style.backgroundColor = themeColorcode
-    heading.innerHTML = title
-    paragraph.innerHTML = paragraphText
-    image.src = imgDistination
-}
-
-
-// return all tags to it's initiale form
-
-function removeCountry(title, paragraphText, imgDistination, themeColorcode) {
-    themeColor.style.backgroundColor = themeColorcode
-    heading.innerHTML = title
-    paragraph.innerHTML = paragraphText
-    image.src = imgDistination
-}
-
 
 
 
