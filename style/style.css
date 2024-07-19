@@ -1,0 +1,7 @@
+.countryButton.focus,
+.countryButton:focus {
+    outline: 0;
+    background-color: green;
+    color: white;
+    box-shadow: none;
+}
