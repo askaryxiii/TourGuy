@@ -5,3 +5,8 @@
     color: white;
     box-shadow: none;
 }
+
+.countrySection {
+    display: none;
+
+}

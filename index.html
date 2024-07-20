@@ -11,28 +11,45 @@
 
 <body>
     <div class="buttonsSection container d-flex justify-content-around py-4">
-        <button type="button" class="countryButton btn border" onclick="countryInfo('EGYPT' ,
-             'Egypt, a country linking northeast Africa with the Middle East, dates to the time of the pharaohs. Millennia-old monuments sit along the fertile Nile River Valley, including Giza\'s colossal Pyramids and Great Sphinx as well as Luxor\'s hieroglyph-lined Karnak Temple and Valley of the Kings tombs. The capital, Cairo, is home to Ottoman landmarks like Muhammad Ali Mosque and the Egyptian Museum, a trove of antiquities.'
-              , 'http://127.0.0.1:5500/assets/img/egypt-flag.jpg' , '#6c757d' )">EGYPT</button>
-        <button type="button" class="countryButton btn border " onclick="countryInfo('PALESTINE' ,
-        'Palestine, officially the State of Palestine, is a country in the southern Levant region of West Asia. It encompasses two disconnected territories – the West Bank and the Gaza Strip, collectively known as the Palestinian territories – within the larger region of Palestine.'
-         , 'http://127.0.0.1:5500/assets/img/palestine-flag.jpg' , '#6c757d' )">PALESTINE</button>
-        <button type="button" class="countryButton btn border" onclick="countryInfo('UAE' ,
-        'The United Arab Emirates, or simply the Emirates, is a country in West Asia, in the Middle East. Located at the eastern end of the Arabian Peninsula, it shares land borders with Oman to the east and Saudi Arabia to the southwest; as well as maritime borders in the Persian Gulf with Qatar and Iran.'
-         , 'http://127.0.0.1:5500/assets/img/united-arab-emirates-flag.jpg' , '#6c757d' )">UAE</button>
-        <button type="button" class="countryButton btn border" onclick="countryInfo('LEBANON' ,
-        'Lebanon, officially the Republic of Lebanon, is a country in the Levant region of West Asia. It is bordered by Syria to the north and east, by Israel to the south, and by the Mediterranean Sea to the west; Cyprus lies a short distance away from the country\'s coastline.'
-         , 'http://127.0.0.1:5500/assets/img/lebanon-flag.jpg' , '#6c757d' )">LEBANON</button>
-        <button type="button" class="btn border btn-danger" onclick="countryInfo('','','','')">REMOVE COUNTRY</button>
+        <button type="button" class="countryButton btn border">egypt</button>
+        <button type="button" class="countryButton btn border ">palestine</button>
+        <button type="button" class="countryButton btn border">uae</button>
+        <button type="button" class="countryButton btn border">lebanon</button>
+        <button type="button" class="btn border btn-danger">REMOVE COUNTRY</button>
     </div>
 
-    <div class="ContentSection container d-flex align-items-center flex-column mt-4 p-4">
-        <h1 class="contentHeading"></h1>
-        <p class="contentParagraph"></p>
-        <img src="" class="contentImage w-25">
+    <div class="egypt countrySection container align-items-center flex-column mt-4 p-4">
+        <h1 class="contentHeading">EGYPT</h1>
+        <p class="contentParagraph">Egypt, a country linking northeast Africa with the Middle East, dates to the time of
+            the pharaohs. Millennia-old monuments sit along the fertile Nile River Valley, including Giza\'s colossal
+            Pyramids and Great Sphinx as well as Luxor\'s hieroglyph-lined Karnak Temple and Valley of the Kings tombs.
+            The capital, Cairo, is home to Ottoman landmarks like Muhammad Ali Mosque and the Egyptian Museum, a trove
+            of antiquities.</p>
+        <img src="assets/img/egypt-flag.jpg" class="contentImage w-25">
     </div>
-
-
+    <div class="palestine countrySection container align-items-center flex-column mt-4 p-4">
+        <h1 class="contentHeading">PALESTINE</h1>
+        <p class="contentParagraph">Palestine, officially the State of Palestine, is a country in the southern Levant
+            region of West Asia. It encompasses two disconnected territories – the West Bank and the Gaza Strip,
+            collectively known as the Palestinian territories – within the larger region of Palestine.</p>
+        <img src="assets/img/palestine-flag.jpg" class="contentImage w-25">
+    </div>
+    <div class="uae countrySection container align-items-center flex-column mt-4 p-4">
+        <h1 class="contentHeading">UAE</h1>
+        <p class="contentParagraph">The United Arab Emirates, or simply the Emirates, is a country in West Asia, in the
+            Middle East. Located at the eastern end of the Arabian Peninsula, it shares land borders with Oman to the
+            east and Saudi Arabia to the southwest; as well as maritime borders in the Persian Gulf with Qatar and Iran.
+        </p>
+        <img src="assets/img/united-arab-emirates-flag.jpg" class="contentImage w-25">
+    </div>
+    <div class="lebanon countrySection container align-items-center flex-column mt-4 p-4">
+        <h1 class="contentHeading">LEBANON</h1>
+        <p class="contentParagraph">Lebanon, officially the Republic of Lebanon, is a country in the Levant region of
+            West Asia. It is bordered by Syria to the north and east, by Israel to the south, and by the Mediterranean
+            Sea to the west; Cyprus lies a short distance away from the country\'s coastline.
+        </p>
+        <img src="assets/img/lebanon-flag.jpg" class="contentImage w-25">
+    </div>
 
 
     <script src="js/bootstrap.bundle.min.js"></script>

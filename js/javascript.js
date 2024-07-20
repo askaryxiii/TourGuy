@@ -13,18 +13,25 @@
 */
 
 // variables to select tags
-var heading = document.querySelector(".contentHeading");
-var paragraph = document.querySelector(".contentParagraph");
-var image = document.querySelector(".contentImage");
-var themeColor = document.querySelector(".ContentSection");
+var btns = document.querySelectorAll(".countryButton")
+var deleteBtn = document.querySelector(".btn-danger")
+var coutrySections = document.querySelectorAll(".countrySection")
 
-// showing egypt information when pressing egypt
-function countryInfo(title, paragraphText, imgDistination, themeColorcode) {
-    themeColor.style.backgroundColor = themeColorcode
-    heading.innerHTML = title
-    paragraph.innerHTML = paragraphText
-    image.src = imgDistination
-}
+
+deleteBtn.addEventListener('click', () => {
+    for (x = 0; x < coutrySections.length; x++) {
+        coutrySections[x].style.display = 'none'
+    }
+})
+
+btns.forEach((btn) => {
+    btn.addEventListener('click', () => {
+        for (x = 0; x < coutrySections.length; x++) {
+            coutrySections[x].style.display = 'none'
+        }
+        document.querySelector("." + btn.innerText).style.display = "block"
+    })
+})
 
 
 
